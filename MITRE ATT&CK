@@ -1,0 +1,89 @@
+What is Mitre Attack?
+
+The MITRE ATT&CK framework is a comprehensive and widely used tool for understanding and categorizing cyber adversary behavior. 
+Developed by the MITRE Corporation.
+
+Terms of the MITRE ATT&CK Framework
+
+Tactics:
+
+Tactics represent the "why" of an attack technique. They are the adversary's tactical objectives—the reasons for performing an action. 
+
+Techniques:
+
+Techniques describe the "how" of an attack. They are the specific methods adversaries use to achieve their tactical objectives. 
+Each tactic can have multiple techniques associated with it.
+
+Sub-Techniques:
+
+These provide additional granularity and detail within a technique. For example, the technique "Phishing" might have sub-techniques like 
+"Spearphishing Attachment" and "Spearphishing Link."
+
+Procedures:
+
+Procedures are the specific implementation of techniques or sub-techniques used by threat actors. 
+These are detailed descriptions of how specific groups or malware utilize techniques.
+
+
+Mitre Attack Tactics
+
+The MITRE ATT&CK framework outlines a set of tactics that represent the strategic objectives adversaries pursue during various stages of a cyber attack.
+
+Initial Access:
+
+Techniques that adversaries use to gain initial access to a network. 
+Examples include spearphishing, exploiting public-facing applications, and supply chain compromises.
+
+
+Execution:
+
+Methods by which adversaries run malicious code on a system. Techniques include command and scripting interpreter, 
+exploitation for client execution, and scheduled tasks.
+
+Persistence:
+
+Techniques aimed at maintaining a foothold on the system. Examples include creating new user accounts, modifying existing services, 
+and implanting malicious code in startup items.
+
+Privilege Escalation:
+
+Techniques that enable adversaries to gain higher-level permissions on a system. Methods include bypassing user account control, 
+exploiting vulnerabilities, and manipulating access tokens.
+
+Defense Evasion:
+
+Methods used to avoid detection and evade security measures. Techniques include obfuscating files or information, disabling security tools, 
+and using trusted processes to execute malicious code.
+
+Credential Access:
+
+Techniques that allow adversaries to steal credentials such as account names and passwords. Examples include keylogging, credential dumping, and 
+brute force attacks.
+
+Discovery:
+
+Techniques for gaining knowledge about the system and network environment. These include network scanning, system information discovery, and 
+account discovery.
+
+Lateral Movement:
+
+Techniques for moving through a network. Methods include using remote services, exploiting remote systems, 
+and using stolen credentials to access other systems.
+
+Collection:
+
+Techniques for gathering information and sensitive data from the target environment. Examples include capturing screenshots, keylogging, 
+and data from local system storage.
+
+Command and Control (C2):
+
+Techniques for communicating with compromised systems. These include using C2 servers, encrypted channels, and web service-based C2.
+
+Exfiltration:
+
+Techniques for stealing data from a target network. Methods include using automated tools, exfiltration over alternative protocol, 
+and scheduled transfer.
+
+Impact:
+
+Techniques that affect the integrity and availability of systems and data. Examples include data destruction, service stop, and resource hijacking.
