@@ -87,3 +87,44 @@ and scheduled transfer.
 Impact:
 
 Techniques that affect the integrity and availability of systems and data. Examples include data destruction, service stop, and resource hijacking.
+
+
+Mitre Att&ck Use Cases:
+
+* Detection
+* Threat Intelligence
+* To Find Attack Surface
+* Assessment
+* Adversery Emulation
+
+
+Process of Applying Att&ck to CTI
+
+* Understand Att&ck
+* Map Data to Att&ck
+    Process of Mapping to ATT&CK
+        1. Find the behavior
+        2. Research the behavior
+        3. Translate the behavior into a tactic
+        4. Figure out what technique applies to the behavior
+* Store and Analyze Att&ck - Mapped data
+* Make Defensive Recommendations
+
+
+Research Defensive Options Related to Technique:
+
+▪ ATT&CK:
+  – https://attack.mitre.org
+▪ Cyber Analytics Repository:
+  – https://car.mitre.org/
+▪ Threat Hunter Playbook
+  – https://github.com/hunters-forge/ThreatHunter-Playbook
+▪ Windows ATT&CK Logging Cheatsheet
+  – https://www.malwarearchaeology.com/cheat-sheets
+
+Resources:
+
+Att&ck Navigator
+  https://mitre-attack.github.io/attack-navigator/
+Mitre Att&ck Framework Version 6
+  https://attack.mitre.org/versions/v6/
